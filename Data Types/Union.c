@@ -5,11 +5,6 @@ union grade{
 
 };
 
-union result{
-    char ashwin[10],kishore[10],hari[10],adhi[10];
-
-};
-
 void main(){
   printf("****Union****");
   union grade g;
