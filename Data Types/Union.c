@@ -5,14 +5,21 @@ union grade{
 
 };
 
+union result{
+    char ashwin[10],kishore[10],hari[10],adhi[10];
+
+};
+
 void main(){
   printf("****Union****");
   union grade g;
- // g.ashwin="F";
+ 
   strcpy(g.ashwin,"F");
   strcpy(g.hari,"T");
   printf("\n%s\t%s",g.ashwin,g.kishore);
-
+  
+  union grade* r= &g;
+  printf("\n%s",r->ashwin);
 
 
 }
