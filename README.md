@@ -29,4 +29,6 @@ $git push origin master
 ```
 Thats all about installation and version control with **Git**
 
+## Contributor
+Ashwin Kumar R 
 
